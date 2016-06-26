@@ -5,14 +5,13 @@
 erl_crash.dump
 *.ez
 
-/apps/rumble/db
-/apps/rumble/*.ez
+/apps/rumbl/db
+/apps/rumbl/*.ez
 
-/apps/rumbleerl_crash.dump
+/apps/rumbl/erl_crash.dump
 
-/apps/rumble/node_modules
+/apps/rumbl/node_modules
 
-/apps/rumble/priv/static/
-
-/apps/rumble/config/dev.secrets.exs
-/apps/rumble/config/prod.secrets.exs
+/apps/rumbl/priv/static/
+/apps/rumbl/config/dev.secrets.exs
+/apps/rumbl/config/prod.secrets.exs

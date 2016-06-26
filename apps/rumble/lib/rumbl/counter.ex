@@ -3,9 +3,9 @@ defmodule Rumbl.Counter do
 
   def inc(pid), do: GenServer.cast(pid, :inc)
 
-  def dec(pid), do: Genserver.cast(pid, :dec)
+  def dec(pid), do: GenServer.cast(pid, :dec)
 
-  def val(pid, timeout \\ 5000) do
+  def val(pid, _timeout \\ 5000) do
     GenServer.call(pid, :val)
   end
 

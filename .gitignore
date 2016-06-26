@@ -1,13 +1,20 @@
 /_build
-/db
+/cover
 /deps
-/*.ez
-
+/doc
 erl_crash.dump
+*.ez
 
-/node_modules
+/apps/rumble/_build
+/apps/rumble/db
+/apps/rumble/deps
+/apps/rumble/*.ez
 
-/priv/static/
+/apps/rumbleerl_crash.dump
 
-/config/dev.secret.exs
-/config/prod.secret.exs
+/apps/rumble/node_modules
+
+/apps/rumble/priv/static/
+
+/apps/rumble/config/dev.secret.exs
+/apps/rumble/config/prod.secret.exs
